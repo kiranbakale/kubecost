@@ -41,6 +41,8 @@ Kubecost is a cost monitoring and optimization platform designed for Kubernetes 
 
 ## How Kubecost Works
 
+![Screenshot 2025-01-26 135236](https://github.com/user-attachments/assets/1492b6ae-d6c1-4a2a-81fc-859803f16dc3)
+
 The Kubecost Helm chart deploys major components such as:
 - **Kubecost Cost-Analyzer Pod**:
   - Frontend: Manages routing and UI.
@@ -52,6 +54,9 @@ The Kubecost Helm chart deploys major components such as:
   - Dashboards for cost and efficiency monitoring.
 
 Kubecost retrieves AWS pricing data, integrates it with Prometheus metrics, and provides actionable cost insights via its dashboard.
+
+![image](https://github.com/user-attachments/assets/98b7e90e-f18f-492e-a03b-b3c9369fc487)
+
 
 ---
 
